@@ -33,6 +33,7 @@ class Navigation
     {
         if ($this->viewModel->isAjaxNavEnabled()) {
             $subject->setData('active', $subject->getActiveFilters());
+            return 'Buhmann_CatalogSmile::layer/view.phtml';
         }
 
         return $result;
