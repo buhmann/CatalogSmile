@@ -12,17 +12,6 @@ define([
         },
 
         /**
-         * Initialize root navigation components and map reactive tracking loops
-         */
-        initialize: function () {
-            this._super();
-
-            console.log(this);
-
-            return this;
-        },
-
-        /**
          * Check if there is at least one filter that actually contains selectable options or an active slider
          *
          * @returns {Boolean}
