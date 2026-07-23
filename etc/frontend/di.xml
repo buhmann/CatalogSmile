@@ -22,4 +22,7 @@
     <type name="Magento\Catalog\Model\Layer\Filter\Item">
         <plugin name="buhmann_catalog_filter_item" disabled="true" />
     </type>
+    <type name="Magento\CatalogSearch\Model\Layer\Filter\Price">
+        <plugin name="buhmann_catalog_price_filter_apply" disabled="true" />
+    </type>
 </config>
